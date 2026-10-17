@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bjuglrm0dmaqh"]
+
+[ext_resource type="Script" uid="uid://bvm6kvx6pglbt" path="res://scripts/title_screen.gd" id="1_v6p8y"]
+
+[node name="Control" type="Control" unique_id=2054120468]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_v6p8y")
+
+[node name="Button" type="Button" parent="." unique_id=103441997]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 47.0
+offset_right = 136.0
+offset_bottom = 78.09137
+text = "start dis shit"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
