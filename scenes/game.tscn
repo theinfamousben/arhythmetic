@@ -4,6 +4,8 @@
 
 [sub_resource type="Theme" id="Theme_a1n5f"]
 
+[sub_resource type="AudioStreamMP3" id="AudioStreamMP3_a1n5f"]
+
 [node name="Node2D" type="Node2D" unique_id=2093622032]
 script = ExtResource("1_uwrxv")
 
@@ -74,3 +76,6 @@ offset_top = 448.0
 offset_right = 944.0
 offset_bottom = 512.0
 text = ";"
+
+[node name="Song" type="AudioStreamPlayer" parent="." unique_id=1618110686]
+stream = SubResource("AudioStreamMP3_a1n5f")

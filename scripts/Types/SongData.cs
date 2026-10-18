@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Arhythmetic.scripts.Types;
 
 public class SongData
@@ -8,7 +10,7 @@ public class SongData
     public string songArtist;
     public float bpm;
     public int[] timeSignature; // [numerator, denominator]
-
+    public List<NoteEvent> events;
 }
 
 public class NoteEvent

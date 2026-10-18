@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Arhythmetic"
+config/version="p0.1"
 run/main_scene="uid://bjuglrm0dmaqh"
 config/features=PackedStringArray("4.7", "C#", "Forward Plus")
 config/icon="res://icon.svg"
