@@ -4,13 +4,14 @@ Arhythmetic is a rhythm-based game that focuses on testing your music theory kno
 
 ## Features:
 *some features are still in development*
--[] Game loop
--[] Sheet music display
--[x] Player input elements
+
+- [ ] Game loop
+- [ ] Sheet music display
+- [x] Player input elements
 
 ## How to get:
 ### build from source:
 1. Clone the repository
-2. Open the project in unity 6
+2. Open the project in godot MONO
 3. Build the project
 4. have fun :D
